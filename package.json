@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./ttsbot.js"
+    "start": "nodemon ./ttsbot.js"
   },
   "keywords": [
     "discord",
@@ -40,6 +40,7 @@
     "discord-api-types": "^0.27.3",
     "discord.js": "^13.6.0",
     "libsodium-wrappers": "^0.7.9",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.19"
   }
 }
